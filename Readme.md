@@ -6,27 +6,27 @@ To implement Pseudorandom Number Generation using the Standard Library.
 ## Algorithm:
 
 
-1. **step-1**  Define a structure `Point` to represent points on the elliptic curve with `x` and `y` coordinates.
+1. **step-1** :  Define a structure `Point` to represent points on the elliptic curve with `x` and `y` coordinates.
 
-2. **step-2** Implement the `mod_inverse` function to compute the modular inverse of a number using the Extended Euclidean Algorithm.
+2. **step-2** : Implement the `mod_inverse` function to compute the modular inverse of a number using the Extended Euclidean Algorithm.
 
-3. **step-3** Define the `add_points` function to perform point addition on the elliptic curve.
+3. **step-3** : Define the `add_points` function to perform point addition on the elliptic curve.
 
-4. **step-4**Define the `scalar_multiplication` function to perform scalar multiplication (point multiplication) by using the double-and-add method.
+4. **step-4** : Define the `scalar_multiplication` function to perform scalar multiplication (point multiplication) by using the double-and-add method.
 
-5. **step-5**Prompt the user to input the prime number `p`, curve parameters `a` and `b`, base point `G`, Alice's private key, and Bob's private key.
+5. **step-5** : Prompt the user to input the prime number `p`, curve parameters `a` and `b`, base point `G`, Alice's private key, and Bob's private key.
 
-6. **step-6**Compute Alice's public key by performing scalar multiplication of the base point `G` with Alice's private key.
+6. **step-6** : Compute Alice's public key by performing scalar multiplication of the base point `G` with Alice's private key.
 
-7. **step-7**Compute Bob's public key by performing scalar multiplication of the base point `G` with Bob's private key.
+7. **step-7** : Compute Bob's public key by performing scalar multiplication of the base point `G` with Bob's private key.
 
-8. **step-8**Compute the shared secret for Alice by performing scalar multiplication of Bob's public key with Alice's private key.
+8. **step-8** : Compute the shared secret for Alice by performing scalar multiplication of Bob's public key with Alice's private key.
 
-9. **step-9**Compute the shared secret for Bob by performing scalar multiplication of Alice's public key with Bob's private key.
+9. **step-9** : Compute the shared secret for Bob by performing scalar multiplication of Alice's public key with Bob's private key.
 
-10. **step-10**Display the public keys and the shared secrets computed by both Alice and Bob.
+10. **step-10** : Display the public keys and the shared secrets computed by both Alice and Bob.
 
-11. **step-11**Verify if the shared secrets match and display whether the key exchange was successful.
+11. **step-11** : Verify if the shared secrets match and display whether the key exchange was successful.
 
 
 ## Code:
