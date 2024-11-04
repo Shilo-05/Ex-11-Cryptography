@@ -146,6 +146,6 @@ int main() {
 
 
 ## Result:
-The program for Pseudorandom Number Generation is executed successfully
+The program for Elliptic curve cryptography was written and executed successfully
 
 
