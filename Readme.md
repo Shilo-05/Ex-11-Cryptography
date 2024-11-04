@@ -1,4 +1,9 @@
 # Experiment 11: ELLIPTIC CURVE CRYPTOGRAPHY(ECC)
+
+```
+Name: Oswald Shilo
+Register No : 212223040139
+```
  
 ## Aim:
 To implement elliptic curve cryptography (ECC) for secure key exchange between two users.
@@ -30,10 +35,7 @@ To implement elliptic curve cryptography (ECC) for secure key exchange between t
 
 
 ## Code:
-```
-Name : Abdur Rahman Basil A H
-Register no : 212223040002
-```
+
 ```c
 #include <stdio.h>
 
