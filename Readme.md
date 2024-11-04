@@ -1,7 +1,7 @@
-# Experiment 06: Implementation of Pseudorandom Number Generation using Standard Library
-
+# Experiment 11: ELLIPTIC CURVE CRYPTOGRAPHY(ECC)
+ 
 ## Aim:
-To implement Pseudorandom Number Generation using the Standard Library.
+To implement elliptic curve cryptography (ECC) for secure key exchange between two users.
 
 ## Algorithm:
 
